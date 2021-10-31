@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Spartan;
+    src: url(Spartan.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Spartan;
+}
+.top_section{
+    display: flex;
+    
+}
+.top_text{
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.title{
+    color: hsl(300, 43%, 22%);
+    font-size: 50px;
+    line-height: 45px;
+}
+.title_text{
+    margin-top: 1em;
+    color: hsl(303, 10%, 53%);
+    line-height: 1.5rem;
+}
+.rating_cards{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+div.s_card:nth-child(2){
+    margin-left: 50px;
+}
+div.s_card:nth-child(3){
+    margin-left: 100px;
+}
+.stars{
+    display: flex;
+    margin-left: 2.5em;
+    height: 55px;
+    align-items: center;
+    
+}
+.star{
+    height: 17px;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+.star1{
+    height: 17px;
+    margin-top: -2px;
+    margin-right: 2.5em;
+    margin-left: 5px;
+}
+.s_card{
+    width: 500px;
+    height: 55px;
+    margin-bottom: 20px;
+    background-color: hsl(300, 30%, 83%);
+    border-radius: 7px;
+
+}
+.star_text{
+    color:hsl(300, 43%, 22%);
+    font-size: 15px;
+    margin-top: 2px;
+}
+.bottom_cards{
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.b_card{
+    width: 400px;
+    height: 270px;
+    background-color: hsl(300, 43%, 22%);
+}
+.user{
+    display: flex;
+    
+}
